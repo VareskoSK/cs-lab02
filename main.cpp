@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-    int a, b;
+    double a, b;
     cin >> a >> b;
     cout << "A + B = " << a + b << '\n'
          << "A - B = " << a - b << '\n'
@@ -15,7 +15,6 @@ int main()
         cout << "MAX = " << a << '\n';
     else
         cout << "MAX = " << b << '\n';
-            << "A / B = " << a / b << '\n'
             if (a < b)
                 cout << "MIN = " << a << '\n';
     else
